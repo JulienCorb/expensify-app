@@ -13,7 +13,7 @@ export const LoginPage = ({ startLogin }) => (
 );
 
 const mapDispatchToProps = dispatch => ({
-  startLogin: () => dispath(startLogin())
+  startLogin: () => dispatch(startLogin())
 });
 
 export default connect(undefined, mapDispatchToProps)(LoginPage);
